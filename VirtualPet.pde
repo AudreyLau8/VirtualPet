@@ -43,6 +43,6 @@ void draw()
   ellipse(245, 150, 35, 35); //(x, y, width, height)
   noStroke();
   fill(0,0,0);
-  rect(140, 145, 15, 10);
-  rect(140+100, 145, 15, 10);
+  rect(145, 145, 15, 10);
+  rect(140+95, 145, 15, 10);;
 }
