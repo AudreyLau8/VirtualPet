@@ -36,6 +36,19 @@ void draw()
   line(200,270,200,260);
   line(190, 270, 210, 270);
   
+  //grass
+  fill(0,155,90);
+  int grass = 1;
+  int gx = 190;
+  int gy = 300;
+  while (grass < 5)
+  {
+    triangle(195, 271, 205, 271, gx, gy);
+    gx = gx + 6;
+    gy = gy + 5;
+    grass = grass + 1;
+  }
+  
   //eyes
   stroke(10);
   fill(204,204,0);
