@@ -8,8 +8,10 @@ void draw()
   noStroke();
   
   //background
-  fill(50,92,100);
-  rect(0,0, 400,400)
+  fill(135, 206, 235);
+  rect(0,0, 400,300);
+  fill(0,154,23);
+  rect(0,300, 400, 100);
   
   //horns
   stroke(5);
